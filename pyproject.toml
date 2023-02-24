@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "p2n-isuse"
+version = "0.1.0"
+packages = [{ include = "p2n_isuse" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.3"
+httpx-oauth = "^0.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
