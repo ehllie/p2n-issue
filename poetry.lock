@@ -93,14 +93,14 @@ socks = ["socksio (>=1.0.0,<2.0.0)"]
 
 [[package]]
 name = "httpx-oauth"
-version = "0.11.0"
+version = "0.11.2"
 description = "Async OAuth client using HTTPX"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "httpx_oauth-0.11.0-py3-none-any.whl", hash = "sha256:c7601bd1a7a485c8579244f4a6a698d9b22efc4a02b8fb426b2af490836481d5"},
-    {file = "httpx_oauth-0.11.0.tar.gz", hash = "sha256:12ce9d58a9bc5d0d4dbba22afaf033695d79078d08eaf949d71e1db97a830cb6"},
+    {file = "httpx_oauth-0.11.2-py3-none-any.whl", hash = "sha256:11a2c79111e61a7bd70624606ad6a3013b6756ce4817dd5d5b44f70bacb45940"},
+    {file = "httpx_oauth-0.11.2.tar.gz", hash = "sha256:690e4d0a03b1974b9e600436a6d7a8c064e0707a3d86a41a12153cc797244ac6"},
 ]
 
 [package.dependencies]

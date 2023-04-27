@@ -2,6 +2,8 @@
 name = "p2n-isuse"
 version = "0.1.0"
 packages = [{ include = "p2n_isuse" }]
+description = ""
+authors = []
 
 [tool.poetry.dependencies]
 python = "^3.10"

@@ -17,7 +17,7 @@
             projectDir = self;
             overrides = overrides.withDefaults (_: prev: {
               httpx-oauth = prev.httpx-oauth.overridePythonAttrs (old: {
-                buildInputs = (old.buildInputs or [ ]) ++ [ prev.hatchling ];
+                nativeBuildInputs = (old.nativeBuildInputs or [ ]) ++ [ prev.hatchling ];
               });
             });
           };
